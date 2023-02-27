@@ -1,0 +1,1 @@
+source /home/user/.bash_aliases
