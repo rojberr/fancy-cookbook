@@ -1,6 +1,18 @@
 # Kubernetes aliases
 
 alias kn=" kubectl config set-context --current --namespace"
+alias kl="kubectl logs"
+alias kd="kubectl describe"
+alias kg="kubectl get"
+alias kga="kubectl get all"
+alias kgn="kubectl get nodes"
+alias kei="kubectl exec -it"
+alias kpf="kubectl port-forward"
+alias kgnm="kubectl get nodes -o=custom-columns=NAME:.metadata.name,STATUS:.status.conditions[?(@.type==\"Ready\")].status"
+
+# Docker aliases
+
+alias d="docker"
 
 # Git aliases
 
